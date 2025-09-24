@@ -1,0 +1,18 @@
+/* ElementUI的message消息框需要的全局样式 */
+
+/* 消息框选样式设计，不能加scoped不然无法实现 */
+.custom-message{
+  min-width: 240px !important;
+  font-size: 26px !important;
+  font-family: 'Open Sans' !important;
+  border-radius: 5px !important;
+  padding: 13px 15px 13px 20px !important;
+}
+/* 设置字体图标样式 */
+.custom-message .el-message__icon {
+  margin-right: 5px !important;
+  font-size: 18px !important;
+  display: flex;
+  /* 对齐文字 */
+  align-items: center;
+}
